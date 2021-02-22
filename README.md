@@ -1,6 +1,6 @@
 # Read, Write and Display a video using OpenCV
 
-#Reading a Video
+#Reading a Video#
 In OpenCV, a video can be read either by using the feed from a camera connected to a computer or by reading a video file. The first step towards reading a video file is to create a VideoCapture object. Its argument can be either the device index or the name of the video file to be read.
 
 #Displaying a video
