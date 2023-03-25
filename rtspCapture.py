@@ -3,7 +3,7 @@ import cv2
 
 # Create a VideoCapture object and read from input file
 # If the input is the camera, pass 0 instead of the video file name
-cap = cv2.VideoCapture('rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov')
+cap = cv2.VideoCapture('Enter you rtsp stream link here')
 # We convert the resolutions from float to integer.
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
